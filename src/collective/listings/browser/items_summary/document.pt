@@ -1,12 +1,15 @@
 <article>
-    <header>
-        header
-        <h2>${context/Title}</h2>
-    </header>
-    <section>
-        content
-    </section>
-    <footer>
-        optional collophon
-    </footer>
+  <header>
+    <a href="${context/getURL}">
+      <h2>${context/Title}</h2>
+    </a>
+  </header>
+  <section>
+    ${context/Description}
+  </section>
+  <footer>
+    ${context/Creator}
+    - Created: <time datetime="${context/CreationDate}">${context/created}</time>
+    - Modified: <time datetime="${context/ModificationDate}">${context/modified}</time>
+  </footer>
 </article>
