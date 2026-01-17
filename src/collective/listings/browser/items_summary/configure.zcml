@@ -12,7 +12,7 @@
     /-->
 
   <browser:page
-    name="item-summary-documnent"
+    name="item-summary-Document"
     template="document.pt"
     for="*"
     permission="zope.Public"

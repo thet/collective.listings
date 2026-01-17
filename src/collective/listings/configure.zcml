@@ -4,7 +4,6 @@
     >
 
   <include package=".browser" />
-  <include package=".listings" />
 
   <genericsetup:registerProfile
       name="default"
