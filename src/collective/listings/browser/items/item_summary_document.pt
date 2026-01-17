@@ -1,0 +1,12 @@
+<article>
+    <header>
+        header
+        <h2>context/title</h2>
+    </header>
+    <section>
+        content
+    </section>
+    <footer>
+        optional collophon
+    </footer>
+</article>

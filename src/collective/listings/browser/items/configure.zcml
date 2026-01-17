@@ -1,0 +1,22 @@
+<configure
+    xmlns="http://namespaces.zope.org/zope"
+    xmlns:browser="http://namespaces.zope.org/browser"
+    >
+
+  <!--browser:page
+      name="item"
+      for="*"
+      class=".item.ItemTraverser"
+      permission="zope.Public"
+      layer="...interfaces.IBrowserLayer"
+    /-->
+
+  <browser:page
+    name="item-summary-documnent"
+    template="summary_document.pt"
+    for="*"
+    permission="zope.Public"
+    layer="...interfaces.IBrowserLayer"
+  />
+
+</configure>

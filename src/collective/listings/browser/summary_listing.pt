@@ -1,0 +1,5 @@
+<tal:loop repeat="item context/@@contentlisting">
+
+  <tal:item replace"structure python:path('context/@@item-summary-' + item.portal_type)" />
+
+</tal:loop>

@@ -1,0 +1,16 @@
+<configure
+    xmlns="http://namespaces.zope.org/zope"
+    xmlns:browser="http://namespaces.zope.org/browser"
+    >
+
+  <include package=".items" />
+
+  <browser:page
+      name="summary"
+      for="*"
+      class=".summary.SummaryView"
+      permission="zope.Public"
+      layer="..interfaces.IBrowserLayer"
+      />
+
+</configure>
