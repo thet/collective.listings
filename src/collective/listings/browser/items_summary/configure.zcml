@@ -13,7 +13,7 @@
 
   <browser:page
     name="item-summary-documnent"
-    template="summary_document.pt"
+    template="document.pt"
     for="*"
     permission="zope.Public"
     layer="...interfaces.IBrowserLayer"

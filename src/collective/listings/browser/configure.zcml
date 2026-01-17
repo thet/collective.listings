@@ -3,12 +3,12 @@
     xmlns:browser="http://namespaces.zope.org/browser"
     >
 
-  <include package=".items" />
+  <include package=".items_summary" />
 
   <browser:page
       name="summary"
+      template="summary.pt"
       for="*"
-      class=".summary.SummaryView"
       permission="zope.Public"
       layer="..interfaces.IBrowserLayer"
       />
