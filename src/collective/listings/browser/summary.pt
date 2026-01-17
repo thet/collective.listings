@@ -1,5 +1,4 @@
 <tal:loop repeat="item context/@@contentlisting">
-  <h2>y</h2>
   <p>${item/portal_type}</p>
   <tal:item replace="structure python:path('item/@@item-summary-' + item.portal_type)" />
 </tal:loop>
