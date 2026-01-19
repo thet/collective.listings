@@ -1,0 +1,17 @@
+<article>
+  <header>
+    <a href="${context/getURL}">
+      <h2>${context/Title}</h2>
+    </a>
+    <pre>item-summary-News Item</pre>
+    <pre>${context/portal_type}</pre>
+  </header>
+  <section>
+    ${context/Description}
+  </section>
+  <footer>
+    ${context/Creator}
+    - Created: <time datetime="${context/CreationDate}">${context/created}</time>
+    - Modified: <time datetime="${context/ModificationDate}">${context/modified}</time>
+  </footer>
+</article>

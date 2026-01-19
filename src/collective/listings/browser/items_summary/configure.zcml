@@ -27,4 +27,12 @@
     layer="...interfaces.IBrowserLayer"
   />
 
+  <browser:page
+    name="item-summary-News Item"
+    template="news_item.pt"
+    for="*"
+    permission="zope.Public"
+    layer="...interfaces.IBrowserLayer"
+  />
+
 </configure>
