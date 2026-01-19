@@ -3,6 +3,8 @@
     <a href="${context/getURL}">
       <h2>${context/Title}</h2>
     </a>
+    <pre>item-summary-document</pre>
+    <pre>${context/portal_type}</pre>
   </header>
   <section>
     ${context/Description}

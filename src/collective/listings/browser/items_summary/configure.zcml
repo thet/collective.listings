@@ -12,6 +12,14 @@
     /-->
 
   <browser:page
+    name="item-summary-default"
+    template="default.pt"
+    for="*"
+    permission="zope.Public"
+    layer="...interfaces.IBrowserLayer"
+  />
+
+  <browser:page
     name="item-summary-Document"
     template="document.pt"
     for="*"
