@@ -3,14 +3,6 @@
     xmlns:browser="http://namespaces.zope.org/browser"
     >
 
-  <!--browser:page
-      name="item"
-      for="*"
-      class=".item.ItemTraverser"
-      permission="zope.Public"
-      layer="...interfaces.IBrowserLayer"
-    /-->
-
   <browser:page
     name="item-summary-default"
     template="default.pt"
