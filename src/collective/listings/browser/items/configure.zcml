@@ -6,7 +6,7 @@
   <browser:page
     name="item-default"
     template="default.pt"
-    for="*"
+    for="Products.ZCatalog.interfaces.ICatalogBrain"
     permission="zope2.View"
     layer="...interfaces.IBrowserLayer"
   />
@@ -14,7 +14,7 @@
   <browser:page
     name="item-Document"
     template="document.pt"
-    for="*"
+    for="Products.ZCatalog.interfaces.ICatalogBrain"
     permission="zope2.View"
     layer="...interfaces.IBrowserLayer"
   />
@@ -22,7 +22,7 @@
   <browser:page
     name="item-News Item"
     template="news_item.pt"
-    for="*"
+    for="Products.ZCatalog.interfaces.ICatalogBrain"
     permission="zope2.View"
     layer="...interfaces.IBrowserLayer"
   />
