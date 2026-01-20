@@ -4,12 +4,15 @@
     >
 
   <include package=".items" />
+  <include package=".components" />
 
   <browser:page
       name="summary"
       for="*"
       template="summary.pt"
       permission="zope2.View"
+      menu="plone_displayviews"
+      title="Summary"
       layer="..interfaces.IBrowserLayer"
       />
 

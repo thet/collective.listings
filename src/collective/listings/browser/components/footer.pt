@@ -1,0 +1,3 @@
+<footer>
+  <tal:component replace="structure context/@@component-colophon" />
+</footer>

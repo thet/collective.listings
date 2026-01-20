@@ -1,0 +1,5 @@
+<header>
+  <a href="${context/getURL}">
+    <h2>${context/Title}</h2>
+  </a>
+</header>

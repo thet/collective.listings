@@ -1,19 +1,9 @@
 <article>
-  <header>
-    <a href="${context/getURL}">
-      <h2>${context/Title}</h2>
-    </a>
-    <pre>item-summary-News Item</pre>
-    <pre>${context/portal_type}</pre>
-  </header>
+  <tal:component replace="structure context/@@component-header" />
   <section>
     ${context/Description}
   </section>
-  <footer>
-    ${context/Creator}
-    - Created:
-    <time datetime="${context/CreationDate}">${context/created}</time>
-    - Modified:
-    <time datetime="${context/ModificationDate}">${context/modified}</time>
-  </footer>
+  <tal:component replace="structure context/@@component-footer" />
+  <pre>View name: ${view/__name__}</pre>
+  <pre>Portal Type: ${context/portal_type}</pre>
 </article>

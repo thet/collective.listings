@@ -1,0 +1,30 @@
+<configure
+    xmlns="http://namespaces.zope.org/zope"
+    xmlns:browser="http://namespaces.zope.org/browser"
+    >
+
+  <browser:page
+      name="component-header"
+      for="Products.ZCatalog.interfaces.ICatalogBrain"
+      template="header.pt"
+      permission="zope2.View"
+      layer="...interfaces.IBrowserLayer"
+      />
+
+  <browser:page
+      name="component-footer"
+      for="Products.ZCatalog.interfaces.ICatalogBrain"
+      template="footer.pt"
+      permission="zope2.View"
+      layer="...interfaces.IBrowserLayer"
+      />
+
+  <browser:page
+      name="component-colophon"
+      for="Products.ZCatalog.interfaces.ICatalogBrain"
+      template="colophon.pt"
+      permission="zope2.View"
+      layer="...interfaces.IBrowserLayer"
+      />
+
+</configure>
