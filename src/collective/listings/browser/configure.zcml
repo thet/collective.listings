@@ -9,7 +9,7 @@
       name="summary"
       template="summary.pt"
       for="*"
-      permission="zope.Public"
+      permission="zope2.View"
       layer="..interfaces.IBrowserLayer"
       />
 
