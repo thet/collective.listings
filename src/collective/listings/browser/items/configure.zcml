@@ -4,7 +4,7 @@
     >
 
   <browser:page
-    name="item-summary-default"
+    name="item-default"
     template="default.pt"
     for="*"
     permission="zope.Public"
@@ -12,7 +12,7 @@
   />
 
   <browser:page
-    name="item-summary-Document"
+    name="item-Document"
     template="document.pt"
     for="*"
     permission="zope.Public"
@@ -20,7 +20,7 @@
   />
 
   <browser:page
-    name="item-summary-News Item"
+    name="item-News Item"
     template="news_item.pt"
     for="*"
     permission="zope.Public"
