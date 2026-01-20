@@ -3,7 +3,7 @@
     xmlns:browser="http://namespaces.zope.org/browser"
     >
 
-  <include package=".items_summary" />
+  <include package=".items" />
 
   <browser:page
       name="summary"
