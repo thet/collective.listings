@@ -4,27 +4,27 @@
     >
 
   <browser:page
-    name="item-default"
-    template="default.pt"
-    for="Products.ZCatalog.interfaces.ICatalogBrain"
-    permission="zope2.View"
-    layer="...interfaces.IBrowserLayer"
-  />
+      name="item-default"
+      for="Products.ZCatalog.interfaces.ICatalogBrain"
+      template="default.pt"
+      permission="zope2.View"
+      layer="...interfaces.IBrowserLayer"
+      />
 
   <browser:page
-    name="item-Document"
-    template="document.pt"
-    for="Products.ZCatalog.interfaces.ICatalogBrain"
-    permission="zope2.View"
-    layer="...interfaces.IBrowserLayer"
-  />
+      name="item-Document"
+      for="Products.ZCatalog.interfaces.ICatalogBrain"
+      template="document.pt"
+      permission="zope2.View"
+      layer="...interfaces.IBrowserLayer"
+      />
 
   <browser:page
-    name="item-News Item"
-    template="news_item.pt"
-    for="Products.ZCatalog.interfaces.ICatalogBrain"
-    permission="zope2.View"
-    layer="...interfaces.IBrowserLayer"
-  />
+      name="item-News Item"
+      for="Products.ZCatalog.interfaces.ICatalogBrain"
+      template="news_item.pt"
+      permission="zope2.View"
+      layer="...interfaces.IBrowserLayer"
+      />
 
 </configure>

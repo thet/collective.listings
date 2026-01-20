@@ -13,9 +13,8 @@
       <metal:content-core define-macro="content-core">
 
         <tal:loop repeat="item context/@@contentlisting">
-          <tal:item
-              replace="structure python:path('item/_brain/@@item-' + item.portal_type)"
-              on-error="structure item/_brain/@@item-default"
+          <tal:item replace="structure python:path('item/_brain/@@item-' + item.portal_type)"
+                    on-error="structure item/_brain/@@item-default"
           />
         </tal:loop>
 
