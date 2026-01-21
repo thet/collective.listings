@@ -1,3 +1,5 @@
 ${context/Creator}
-- Created: <time datetime="${context/CreationDate}">${context/created}</time>
-- Modified: <time datetime="${context/ModificationDate}">${context/modified}</time>
+- Created:
+<time datetime="${context/CreationDate}">${context/created}</time>
+- Modified:
+<time datetime="${context/ModificationDate}">${context/modified}</time>
