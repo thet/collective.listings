@@ -8,7 +8,6 @@
       for="Products.ZCatalog.interfaces.ICatalogBrain"
       template="default.pt"
       permission="zope2.View"
-      layer="...interfaces.IBrowserLayer"
       />
 
   <browser:page
@@ -16,7 +15,6 @@
       for="Products.ZCatalog.interfaces.ICatalogBrain"
       template="document.pt"
       permission="zope2.View"
-      layer="...interfaces.IBrowserLayer"
       />
 
   <browser:page
@@ -24,7 +22,6 @@
       for="Products.ZCatalog.interfaces.ICatalogBrain"
       template="news_item.pt"
       permission="zope2.View"
-      layer="...interfaces.IBrowserLayer"
       />
 
 </configure>
