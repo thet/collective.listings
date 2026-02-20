@@ -1,30 +1,5 @@
-<configure
-    xmlns="http://namespaces.zope.org/zope"
-    xmlns:genericsetup="http://namespaces.zope.org/genericsetup"
-    >
+<configure xmlns="http://namespaces.zope.org/zope">
 
   <include package=".browser" />
-
-  <genericsetup:registerProfile
-      name="default"
-      title="collective.listings"
-      description="Installs the  add-on."
-      provides="Products.GenericSetup.interfaces.EXTENSION"
-      directory="profiles/default"
-      post_handler=".setuphandlers.post_install"
-      />
-
-  <genericsetup:registerProfile
-      name="uninstall"
-      title="collective.listings (uninstall)"
-      description="Uninstalls the collective.listings add-on."
-      provides="Products.GenericSetup.interfaces.EXTENSION"
-      directory="profiles/uninstall"
-      />
-
-  <utility
-      factory=".setuphandlers.HiddenProfiles"
-      name="collective.listings-hiddenprofiles"
-      />
 
 </configure>
